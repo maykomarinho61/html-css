@@ -1,0 +1,26 @@
+        p {
+            text-align: center;
+            font-size: 1 cm;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            color: #3D3D3D;
+            background-color: #E1EDF2;
+        }
+        
+        h2 {
+            border-width: medium;
+            border-style: solid;
+            border-color: #00f;
+        }
+        
+        div {
+            float: inherit;
+            text-align: center;
+            background-size: cover;
+            background-color: lightblue
+        }
