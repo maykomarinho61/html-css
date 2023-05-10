@@ -1,26 +1,59 @@
-        p {
-            text-align: center;
-            font-size: 1 cm;
-        }
-        
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        h1 {
-            color: #3D3D3D;
-            background-color: #E1EDF2;
-        }
-        
-        h2 {
-            border-width: medium;
-            border-style: solid;
-            border-color: #00f;
-        }
-        
-        div {
-            float: inherit;
-            text-align: center;
-            background-size: cover;
-            background-color: lightblue
-        }
+            p {
+                text-align: left;
+                font-size: 1 cm;
+            }
+            
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            h1 {
+                color: #3D3D3D;
+                background-color: #E1EDF2;
+            }
+            
+            h2 {
+                border-width: medium;
+                border-bottom-style: solid;
+                border-color: #00f;
+            }
+            
+            alt {
+                color: lightgrey;
+            }
+            
+            .fig1 {
+                width: 30%;
+                top: 20%;
+                left: 20%;
+                background-color: whitesmoke;
+                background-position: center;
+                padding: 10 px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+            }
+            
+            .fig2 {
+                width: 30%;
+                top: 20%;
+                left: 20%;
+                background-color: #C0C0C0;
+                background-position: center;
+                padding: 10 px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+            }
+            
+            .figf {
+                width: 30%;
+                top: 20%;
+                left: 20%;
+                background-color: #C0C0C0;
+                background-position: center;
+                padding: 10 px;
+                text-align: center;
+                margin: auto;
+                display: flex;
+            }
