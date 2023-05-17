@@ -1,66 +1,54 @@
-        p {
-            text-align: left;
-            font-size: 1 cm;
-        }
-        
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            width: 80%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        h1 {
-            padding: 10px;
-            background-color: #E1EDF2;
-        }
-        
-        h2 {
-            border-width: medium;
-            border-bottom-style: solid;
-            border-color: #00f;
-        }
-        
-        alt {
-            color: lightgrey;
-        }
-        
-        .fig1 {
-            width: 30%;
-            top: 20%;
-            left: 20%;
-            background-color: #C0C0C0;
-            background-position: center;
-            margin: 30px;
-            padding: 15px;
-            text-align: center;
-            background-color: whitesmoke;
-            border: 1px solid lightgrey;
-        }
-        
-        .fig2 {
-            width: 30%;
-            top: 20%;
-            left: 20%;
-            background-color: #C0C0C0;
-            background-position: center;
-            margin: 30px;
-            padding: 15px;
-            text-align: center;
-            background-color: whitesmoke;
-            border: 1px solid lightgrey;
-        }
-        
-        .figf {
-            width: 30%;
-            top: 20%;
-            left: 20%;
-            background-color: #C0C0C0;
-            background-position: center;
-            margin: 30px;
-            padding: 15px;
-            text-align: center;
-            background-color: whitesmoke;
-            border: 1px solid lightgrey;
-        }
+                        p {
+                            text-align: left;
+                            font-size: 1 cm;
+                        }
+                        
+                        body {
+                            width: 940px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            font-family: "Helvetica", "Lucida Grande", sans-serif;
+                            color: #3D3D3D;
+                        }
+                        
+                        h1 {
+                            padding: 10px;
+                            background-color: #E1EDF2;
+                        }
+                        
+                        h2 {
+                            border-bottom: 2px solid black;
+                        }
+                        
+                        figure img {
+                            width: 100%;
+                            margin: 30px;
+                            padding: 15px;
+                            text-align: center;
+                            background-color: whitesmoke;
+                            border: 1px solid lightgrey;
+                        }
+                        
+                        figcaption {
+                            margin-top: 10px;
+                        }
+                        
+                        img {
+                            width: inherit;
+                            height: inherit;
+                        }
+                        
+                        .ambev1 {
+                            width: 550px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                        
+                        .ambev2 {
+                            width: 275px;
+                            float: right;
+                        }
+                        
+                        figure img {
+                            width: 100%;
+                        }
