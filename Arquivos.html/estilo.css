@@ -54,3 +54,12 @@
                         figure img {
                             width: 100%;
                         }
+                        
+                        .contato_-subtitulo {
+                            display: inline;
+                        }
+                        
+                        .contato-info {
+                            margin: 16px 0 24px;
+                            padding-left: 32px;
+                        }
