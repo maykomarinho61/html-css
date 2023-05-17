@@ -1,67 +1,54 @@
                    p {
-                text-align: left;
-                font-size: 1 cm;
-            }
-            
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-                width: 80%;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            h1 {
-                padding: 10px;
-                background-color: #E1EDF2;
-            }
-            
-            h2 {
-                border-width: medium;
-                border-bottom-style: solid;
-                border-color: #00f;
-            }
-            
-            alt {
-                color: lightgrey;
-            }
-            
-            .fig1 {
-                width: 30%;
-                top: 20%;
-                left: 20%;
-                background-color: #C0C0C0;
-                background-position: center;
-                margin: 30px;
-                padding: 15px;
-                text-align: center;
-                background-color: whitesmoke;
-                border: 1px solid lightgrey;
-            }
-            
-            .fig2 {
-                width: 30%;
-                top: 20%;
-                left: 20%;
-                background-color: #C0C0C0;
-                background-position: center;
-                margin: 30px;
-                padding: 15px;
-                text-align: center;
-                background-color: whitesmoke;
-                border: 1px solid lightgrey;
-            }
-            
-            .figf {
-                width: 30%;
-                top: 20%;
-                left: 20%;
-                background-color: #C0C0C0;
-                background-position: center;
-                margin: 30px;
-                padding: 15px;
-                text-align: center;
-                background-color: whitesmoke;
-                border: 1px solid lightgrey;
-            }ue
-        }
+                            alinhamento de texto : esquerda;
+                            tamanho da fonte :  1 cm;
+                        }
+
+                        corpo {
+                            largura :  940 px ;
+                            margem-esquerda : auto;
+                            margem direita : auto;
+                            font-family :  "Helvetica" ,  "Lucida Grande" , sem serifa;
+                            cor :  # 3D3D3D ;
+                        }
+
+                        h1 {
+                            preenchimento :  10 px ;
+                            cor de fundo :  # E1EDF2 ;
+                        }
+
+                        h2 {
+                            borda inferior :  2 px preto sólido;
+                        }
+
+                        figura  img {
+                            largura :  100 % ;
+                            margem :  30 px ;
+                            preenchimento :  15 px ;
+                            alinhamento de texto : centro;
+                            cor de fundo : fumaça branca;
+                            borda :  1 px sólido cinza claro;
+                        }
+
+                        figcaption {
+                            margem superior :  10 px ;
+                        }
+
+                        img {
+                            largura : herdar;
+                            altura : herdar;
+                        }
+
+                        . ambev1 {
+                            largura :  550 px ;
+                            margem-esquerda : auto;
+                            margem direita : auto;
+                        }
+
+                        . ambev2 {
+                            largura :  275 px ;
+                            flutuar : direita;
+                        }
+
+                        figura  img {
+                            largura :  100 % ;
+                        }
